@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\PresidentsList.Domain.Interfaces\PresidentsList.Domain.Interfaces.csproj" />
     <ProjectReference Include="..\PresidentsList.Domain.Models\PresidentsList.Domain.Models.csproj" />
+    <ProjectReference Include="..\PresidentsList.Infrastructure.Resources\PresidentsList.Infrastructure.Resources.csproj" />
   </ItemGroup>
 
 </Project>

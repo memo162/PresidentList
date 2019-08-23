@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PresidentsList.Application.Interfaces;
+using PresidentsList.Domain.Models;
 
 namespace PresidentsList_API.Controllers
 {
@@ -11,11 +13,19 @@ namespace PresidentsList_API.Controllers
     [ApiController]
     public class PresidentsController : ControllerBase
     {
+    
+        private readonly IPresidentApplication _presidentApplication;
+
+        public PresidentsController(IPresidentApplication presidentApplication)
+        {
+            _presidentApplication = presidentApplication;
+        }
+
         // GET: api/Presidents
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<President> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _presidentApplication.Get();
         }
 
         // GET: api/Presidents/5

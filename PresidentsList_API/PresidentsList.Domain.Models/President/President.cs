@@ -7,6 +7,9 @@ namespace PresidentsList.Domain.Models
 {
     public class President : ModelBase
     {
+        [JsonProperty("President")]
+        public string Name { get; set; }
+
         public DateTime Birthday { get; set; }
 
         public string Birthplace { get; set; }

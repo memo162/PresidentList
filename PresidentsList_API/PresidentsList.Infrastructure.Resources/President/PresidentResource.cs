@@ -12,9 +12,8 @@ namespace PresidentsList.Infrastructure.Resources.PresidentResources
     {
         public List<President> GetFromJson()
         {
-            using (StreamReader r = new StreamReader("~/App_Data"))
+            using (StreamReader r = new StreamReader("resources/presidents.json"))
             {
-                //string root = HttpContext.Current.Server.MapPath("~/App_Data");
                 string json = r.ReadToEnd();
                 return JsonConvert.DeserializeObject<List<President>>(json);
             }

@@ -1,4 +1,5 @@
 ﻿using PresidentsList.Application.Interfaces;
+using PresidentsList.Domain.Interfaces.PresidentService;
 using PresidentsList.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -8,9 +9,16 @@ namespace PresidentsList.Applications.Services.PresidentApplication
 {
     public class PresidentApplication : IPresidentApplication
     {
+        private readonly IPresidentService _presidentService;
+
+        public PresidentApplication(IPresidentService presidentService)
+        {
+            _presidentService = presidentService;
+        }
+
         public List<President> Get()
         {
-            throw new NotImplementedException();
+            return _presidentService.Get();
         }
 
         public List<President> Get(string orderBy)

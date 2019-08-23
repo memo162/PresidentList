@@ -15,4 +15,12 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PresidentsList.Application.Interfaces\PresidentsList.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\PresidentsList.Applications.Services\PresidentsList.Applications.Services.csproj" />
+    <ProjectReference Include="..\PresidentsList.Domain.Interfaces\PresidentsList.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\PresidentsList.Domain.Services\PresidentsList.Domain.Services.csproj" />
+    <ProjectReference Include="..\PresidentsList.Infrastructure.Resources\PresidentsList.Infrastructure.Resources.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PresidentsList.Application.Interfaces\PresidentsList.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\PresidentsList.Domain.Interfaces\PresidentsList.Domain.Interfaces.csproj" />
     <ProjectReference Include="..\PresidentsList.Domain.Models\PresidentsList.Domain.Models.csproj" />
   </ItemGroup>
 
