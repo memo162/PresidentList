@@ -28,29 +28,11 @@ namespace PresidentsList_API.Controllers
             return _presidentApplication.Get();
         }
 
-        // GET: api/Presidents/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
+        // GET: api/Presidents?orderBy=desc
+        [HttpGet("orderby={orderBy}", Name = "Get")]
+        public IEnumerable<President> Get(string orderBy)
         {
-            return "value";
-        }
-
-        // POST: api/Presidents
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT: api/Presidents/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            return _presidentApplication.Get(orderBy);
         }
     }
 }

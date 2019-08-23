@@ -1,5 +1,6 @@
 ﻿
 using System.Collections.Generic;
+using System.Linq;
 using PresidentsList.Domain.Interfaces.PresidentService;
 using PresidentsList.Domain.Models;
 using PresidentsList.Infrastructure.Interfaces;
@@ -22,12 +23,12 @@ namespace PresidentsList.Domain.Services.PresidentService
 
         public List<President> GetOrderByAsc()
         {
-            return new List<President>();
+            return _presidentResource.GetFromJson().OrderBy(x => x.Name).ToList();
         }
 
         public List<President> GetOrderByDesc()
         {
-            return new List<President>();
+            return _presidentResource.GetFromJson().OrderByDescending(x => x.Name).ToList();
         }
     }
 }

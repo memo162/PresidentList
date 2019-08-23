@@ -1,4 +1,5 @@
 ﻿using PresidentsList.Application.Interfaces;
+using PresidentsList.Domain.Enumerators;
 using PresidentsList.Domain.Interfaces.PresidentService;
 using PresidentsList.Domain.Models;
 using System;
@@ -23,7 +24,20 @@ namespace PresidentsList.Applications.Services.PresidentApplication
 
         public List<President> Get(string orderBy)
         {
-            throw new NotImplementedException();
+            if(!string.IsNullOrEmpty(orderBy))
+            {
+                if (orderBy.ToUpper().Equals(OrderBy.Ascending))
+                {
+                    return _presidentService.GetOrderByAsc();
+                }
+
+                else if (orderBy.ToUpper().Equals(OrderBy.Descending))
+                {
+                    return _presidentService.GetOrderByDesc();
+                }
+            }
+
+            return new List<President>();
         }
     }
 }
