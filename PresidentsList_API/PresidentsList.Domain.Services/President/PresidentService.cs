@@ -1,10 +1,11 @@
 ﻿
 using System.Collections.Generic;
+using PresidentsList.Domain.Interfaces.PresidentService;
 using PresidentsList.Domain.Models;
 
 namespace PresidentsList.Domain.Services.PresidentService
 {
-    public class PresidentService
+    public class PresidentService : IPresidentService
     {
         public List<President> Get()
         {

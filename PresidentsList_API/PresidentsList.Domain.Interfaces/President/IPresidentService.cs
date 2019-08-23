@@ -1,7 +1,5 @@
 ﻿using PresidentsList.Domain.Models;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace PresidentsList.Domain.Interfaces.PresidentService
 {

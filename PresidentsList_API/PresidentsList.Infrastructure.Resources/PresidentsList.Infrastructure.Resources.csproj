@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PresidentsList.Domain.Models\PresidentsList.Domain.Models.csproj" />
+    <ProjectReference Include="..\PresidentsList.Infrastructure.Interfaces\PresidentsList.Infrastructure.Interfaces.csproj" />
   </ItemGroup>
+
 </Project>
