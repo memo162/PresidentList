@@ -350,3 +350,8 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/PresidentsList_API/.vs/PresidentsList_API/DesignTimeBuild/.dtbcache
+/PresidentsList_API/.vs/PresidentsList_API/v16/.suo
+/PresidentsList_API/.vs/PresidentsList_API/v16/Server/sqlite3/storage.ide
+/PresidentsList_API/.vs/PresidentsList_API/v16/.suo
+/PresidentsList_API/.vs/PresidentsList_API/v16/Server/sqlite3/storage.ide
