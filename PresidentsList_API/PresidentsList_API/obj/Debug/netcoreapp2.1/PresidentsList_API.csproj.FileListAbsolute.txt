@@ -3,7 +3,6 @@ C:\Users\jg.espinosa\source\repos\PresidentsList\PresidentsList_API\PresidentsLi
 C:\Users\jg.espinosa\source\repos\PresidentsList\PresidentsList_API\PresidentsList_API\bin\Debug\netcoreapp2.1\PresidentsList_API.runtimeconfig.dev.json
 C:\Users\jg.espinosa\source\repos\PresidentsList\PresidentsList_API\PresidentsList_API\bin\Debug\netcoreapp2.1\PresidentsList_API.dll
 C:\Users\jg.espinosa\source\repos\PresidentsList\PresidentsList_API\PresidentsList_API\bin\Debug\netcoreapp2.1\PresidentsList_API.pdb
-C:\Users\jg.espinosa\source\repos\PresidentsList\PresidentsList_API\PresidentsList_API\obj\Debug\netcoreapp2.1\PresidentsList_API.csprojAssemblyReference.cache
 C:\Users\jg.espinosa\source\repos\PresidentsList\PresidentsList_API\PresidentsList_API\obj\Debug\netcoreapp2.1\PresidentsList_API.csproj.CoreCompileInputs.cache
 C:\Users\jg.espinosa\source\repos\PresidentsList\PresidentsList_API\PresidentsList_API\obj\Debug\netcoreapp2.1\PresidentsList_API.RazorAssemblyInfo.cache
 C:\Users\jg.espinosa\source\repos\PresidentsList\PresidentsList_API\PresidentsList_API\obj\Debug\netcoreapp2.1\PresidentsList_API.RazorAssemblyInfo.cs
