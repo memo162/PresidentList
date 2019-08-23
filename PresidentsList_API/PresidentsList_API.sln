@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresidentsList_API", "PresidentsList_API\PresidentsList_API.csproj", "{2E6D2354-4B53-4C8C-91AF-77F0879F1A0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PresidentsList_API", "PresidentsList_API\PresidentsList_API.csproj", "{2E6D2354-4B53-4C8C-91AF-77F0879F1A0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresidentsList.Web", "PresidentsList.Web", "{A2AFE7BF-629C-469C-8BD6-C454AAC1A7A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresidentsList.Domain", "PresidentsList.Domain", "{FFC5ABD0-4AD4-4B9F-B769-79186DDD8526}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PresidentsList.Domain.Interfaces", "PresidentsList.Domain.Interfaces\PresidentsList.Domain.Interfaces.csproj", "{3FE51935-BBC7-4D81-9BB6-DAE98C9DECF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PresidentsList.Domain.Models", "PresidentsList.Domain.Models\PresidentsList.Domain.Models.csproj", "{D9EF2D4E-84C1-4AE9-A762-052DC23FC371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresidentsList.Domain.Services", "PresidentsList.Domain.Services\PresidentsList.Domain.Services.csproj", "{7BE6B32D-36C6-4E2C-92BA-705E6D50E252}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,27 @@ Global
 		{2E6D2354-4B53-4C8C-91AF-77F0879F1A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E6D2354-4B53-4C8C-91AF-77F0879F1A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E6D2354-4B53-4C8C-91AF-77F0879F1A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE51935-BBC7-4D81-9BB6-DAE98C9DECF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE51935-BBC7-4D81-9BB6-DAE98C9DECF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE51935-BBC7-4D81-9BB6-DAE98C9DECF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE51935-BBC7-4D81-9BB6-DAE98C9DECF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9EF2D4E-84C1-4AE9-A762-052DC23FC371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9EF2D4E-84C1-4AE9-A762-052DC23FC371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9EF2D4E-84C1-4AE9-A762-052DC23FC371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9EF2D4E-84C1-4AE9-A762-052DC23FC371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE6B32D-36C6-4E2C-92BA-705E6D50E252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE6B32D-36C6-4E2C-92BA-705E6D50E252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE6B32D-36C6-4E2C-92BA-705E6D50E252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE6B32D-36C6-4E2C-92BA-705E6D50E252}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E6D2354-4B53-4C8C-91AF-77F0879F1A0B} = {A2AFE7BF-629C-469C-8BD6-C454AAC1A7A9}
+		{3FE51935-BBC7-4D81-9BB6-DAE98C9DECF7} = {FFC5ABD0-4AD4-4B9F-B769-79186DDD8526}
+		{D9EF2D4E-84C1-4AE9-A762-052DC23FC371} = {FFC5ABD0-4AD4-4B9F-B769-79186DDD8526}
+		{7BE6B32D-36C6-4E2C-92BA-705E6D50E252} = {FFC5ABD0-4AD4-4B9F-B769-79186DDD8526}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A480A43-3C0C-4FA1-AA9F-DCCE4461C20E}
