@@ -28,7 +28,7 @@ namespace PresidentsList_API.Controllers
             return _presidentApplication.Get();
         }
 
-        // GET: api/Presidents?orderBy=desc
+        // GET: api/Presidents/orderBy=desc
         [HttpGet("orderby={orderBy}", Name = "Get")]
         public IEnumerable<President> Get(string orderBy)
         {

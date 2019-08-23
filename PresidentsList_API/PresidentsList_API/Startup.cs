@@ -35,6 +35,7 @@ namespace PresidentsList_API
             services.AddSingleton<IPresidentApplication, PresidentApplication>();
             services.AddSingleton<IPresidentService, PresidentService>();
             services.AddSingleton<IPresidentResources, PresidentResource>();
+            services.AddOptions();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
