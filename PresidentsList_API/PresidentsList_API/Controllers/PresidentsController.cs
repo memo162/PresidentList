@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PresidentsList.Application.Interfaces;
 using PresidentsList.Domain.Models;
+using PresidentsList.Domain.Models.Generics;
 
 namespace PresidentsList_API.Controllers
 {
@@ -23,14 +24,14 @@ namespace PresidentsList_API.Controllers
 
         // GET: api/Presidents
         [HttpGet]
-        public IEnumerable<President> Get()
+        public Result<List<President>> Get()
         {
             return _presidentApplication.Get();
         }
 
         // GET: api/Presidents/orderBy=desc
         [HttpGet("orderby={orderBy}", Name = "Get")]
-        public IEnumerable<President> Get(string orderBy)
+        public Result<List<President>> Get(string orderBy)
         {
             return _presidentApplication.Get(orderBy);
         }

@@ -1,4 +1,5 @@
 ﻿using PresidentsList.Domain.Models;
+using PresidentsList.Domain.Models.Generics;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,8 +8,8 @@ namespace PresidentsList.Application.Interfaces
 {
     public interface IPresidentApplication
     {
-        List<President> Get();
+        Result<List<President>> Get();
 
-        List<President> Get(string orderBy);
+        Result<List<President>> Get(string orderBy);
     }
 }

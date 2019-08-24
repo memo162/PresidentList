@@ -2,6 +2,7 @@
 using PresidentsList.Domain.Enumerators;
 using PresidentsList.Domain.Interfaces.PresidentService;
 using PresidentsList.Domain.Models;
+using PresidentsList.Domain.Models.Generics;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -19,42 +20,59 @@ namespace PresidentsList.Applications.Services.PresidentApplication
             _presidentService = presidentService;
         }
 
-        public List<President> Get()
+        public Result<List<President>> Get()
         {
+            var result = new Result<List<President>>();
+
             try
             {
-                return _presidentService.Get();
+                result.Data = _presidentService.Get();
+                return result;
             }
             catch (Exception ex)
             {
                 log.Error(string.Concat("Get() President application Error:: ", ex.Message, ex.StackTrace));
-                return new List<President>();
+                result.Error.Code = ErrorCodes.InternalError;
+                result.Error.Message = string.Concat(ErrorMessage.InternalError, " :: ", ex.Message);
+                result.Error.Type = ErrorTypes.Error;
+                return result;
             }
         }
 
-        public List<President> Get(string orderBy)
+        public Result<List<President>> Get(string orderBy)
         {
+            var result = new Result<List<President>>();
+
             try
             {
                 if (!string.IsNullOrEmpty(orderBy))
                 {
                     if (orderBy.ToUpper().Equals(OrderBy.Ascending))
                     {
-                        return _presidentService.GetOrderByAsc();
+                        result.Data = _presidentService.GetOrderByAsc();
                     }
 
                     else if (orderBy.ToUpper().Equals(OrderBy.Descending))
                     {
-                        return _presidentService.GetOrderByDesc();
+                        result.Data = _presidentService.GetOrderByDesc();
+                    }
+                    else
+                    {
+                        result.Error.Code = ErrorCodes.UnrecognizedCommand;
+                        result.Error.Message = ErrorMessage.UnrecongnizeOrderByCommand;
+                        result.Error.Type = ErrorTypes.Info;
                     }
                 }
 
-                return new List<President>();
+                return result;
             }
             catch (Exception ex)
             {
                 log.Error(string.Concat("Get(OrderBy) President application Error:: ", ex.Message, ex.StackTrace));
-                return new List<President>();
+                result.Error.Code = ErrorCodes.InternalError;
+                result.Error.Message = string.Concat(ErrorMessage.InternalError, " :: " ,ex.Message);
+                result.Error.Type = ErrorTypes.Error;
+                return result;
             }
         }
     }

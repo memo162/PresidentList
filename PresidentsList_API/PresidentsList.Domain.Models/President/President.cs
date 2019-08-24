@@ -9,9 +9,7 @@ namespace PresidentsList.Domain.Models
     {
         [JsonProperty("President")]
         public string Name { get; set; }
-
         public DateTime Birthday { get; set; }
-
         public string Birthplace { get; set; }
 
         [JsonProperty("Death day")]
@@ -19,9 +17,7 @@ namespace PresidentsList.Domain.Models
 
         [JsonProperty("Death place")]
         public string DeathPlace { get; set; }
-
         public string UrlMoreInfo { get; set; }
-
         public string UrlPlaceInfo { get; set; }
     }
 }
