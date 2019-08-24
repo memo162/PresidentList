@@ -5,7 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="appData\logs\" />
+    <Compile Remove="appData\logs\**" />
+    <Content Remove="appData\logs\**" />
+    <EmbeddedResource Remove="appData\logs\**" />
+    <None Remove="appData\logs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="appData\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
