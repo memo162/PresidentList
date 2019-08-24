@@ -12,6 +12,8 @@ namespace PresidentsList.Applications.Services.PresidentApplication
     {
         private readonly IPresidentService _presidentService;
 
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         public PresidentApplication(IPresidentService presidentService)
         {
             _presidentService = presidentService;
@@ -19,25 +21,41 @@ namespace PresidentsList.Applications.Services.PresidentApplication
 
         public List<President> Get()
         {
-            return _presidentService.Get();
+            try
+            {
+                return _presidentService.Get();
+            }
+            catch (Exception ex)
+            {
+                log.Error(string.Concat("Get() President application Error:: ", ex.Message, ex.StackTrace));
+                return new List<President>();
+            }
         }
 
         public List<President> Get(string orderBy)
         {
-            if(!string.IsNullOrEmpty(orderBy))
+            try
             {
-                if (orderBy.ToUpper().Equals(OrderBy.Ascending))
+                if (!string.IsNullOrEmpty(orderBy))
                 {
-                    return _presidentService.GetOrderByAsc();
+                    if (orderBy.ToUpper().Equals(OrderBy.Ascending))
+                    {
+                        return _presidentService.GetOrderByAsc();
+                    }
+
+                    else if (orderBy.ToUpper().Equals(OrderBy.Descending))
+                    {
+                        return _presidentService.GetOrderByDesc();
+                    }
                 }
 
-                else if (orderBy.ToUpper().Equals(OrderBy.Descending))
-                {
-                    return _presidentService.GetOrderByDesc();
-                }
+                return new List<President>();
             }
-
-            return new List<President>();
+            catch (Exception ex)
+            {
+                log.Error(string.Concat("Get(OrderBy) President application Error:: ", ex.Message, ex.StackTrace));
+                return new List<President>();
+            }
         }
     }
 }

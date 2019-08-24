@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="appData\logs\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
