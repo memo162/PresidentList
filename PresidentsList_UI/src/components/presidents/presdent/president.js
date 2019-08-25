@@ -28,7 +28,7 @@ export default class PresidentComponent extends React.Component {
                                 <div>
                                     <small>
                                         <div className="row">
-                                            <div className="col-sm-4 col-lg-3 col-5 pr-0 pr-sm-auto">
+                                            <div title="birthday" className="col-sm-4 col-lg-3 col-5 pr-0 pr-sm-auto">
                                                 <FaBirthdayCake className="mr-1"/>
                                                 <span>{this.props.data.birthday.split('T')[0]}</span>
                                             </div>
@@ -38,7 +38,7 @@ export default class PresidentComponent extends React.Component {
                                             </div>
                                         </div>
                                         <div className="row">
-                                            <div className="col-sm-4 col-lg-3 col-5 pr-0 pr-sm-auto">
+                                            <div title="death day" className="col-sm-4 col-lg-3 col-5 pr-0 pr-sm-auto">
                                                 <FaCross className="mr-1"/>
                                                 <span>{this.props.data.deathDay.split('T')[0]}</span>
                                             </div>
