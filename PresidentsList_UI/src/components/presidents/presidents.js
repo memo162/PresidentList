@@ -10,7 +10,10 @@ export default class PresidentsComponent extends React.Component {
         super();
 
         this.state = { data: [] }
+        this.getPresidentsInfo();
+    }
 
+    getPresidentsInfo = (orderBy) => {
         let axiosConfig = {
             headers: {
                 'Content-Type': 'application/json;charset=UTF-8',
@@ -18,11 +21,17 @@ export default class PresidentsComponent extends React.Component {
             }
         };
 
-        axios.get(`https://picamera162.azurewebsites.net/api/presidents`, axiosConfig)
+        let endpoint = `https://picamera162.azurewebsites.net/api/presidents`;
+
+        if(orderBy != null && orderBy != '') {
+            endpoint += '/orderby=' + orderBy;
+        }
+
+        axios.get(endpoint, axiosConfig)
         .then(res => {
             this.setState({
                 data: res.data.data
-            });
+           });
         });
     }
     
@@ -43,6 +52,16 @@ export default class PresidentsComponent extends React.Component {
                         </div>
                         <div className="row text-white text-center">
                             <h1 className="col-md-12 pt-0 title">PRESIDENTS LIST</h1>
+                        </div>
+                        <div className="row justify-content-md-center mb-3">
+                            <div className="col-md-10 col-lg-7 text-center">
+                                <button className="col-5 btn btn-light mr-1" onClick={() => this.getPresidentsInfo('asc')}>
+                                    Ascending
+                                </button>
+                                <button className="col-5 btn btn-light ml-1" onClick={() => this.getPresidentsInfo('desc')}>
+                                    Descending
+                                </button>
+                            </div>
                         </div>
                         {this.state.data.map((president, i) => {
                             return (
