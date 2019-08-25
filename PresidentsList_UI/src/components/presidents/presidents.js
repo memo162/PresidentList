@@ -1,5 +1,6 @@
 import React from 'react';
 import './presidents.css'
+import axios from 'axios';
 import PresidentComponent from './presdent/president';
 import whiteHouseLogo from '../../assets/images/white_house_logo.png';
 
@@ -7,33 +8,22 @@ export default class PresidentsComponent extends React.Component {
 
     constructor() {
         super();
-        this.presidents = [
-            {
-                name: "George Washington",
-                birthday: "1732-02-22T00:00:00",
-                birthplace: "Westmoreland Co., Va.",
-                deathDay: "1799-12-14T00:00:00",
-                deathPlace: "Mount Vernon, Va.",
-                urlMoreInfo: "https://www.google.com",
-                urlPlaceInfo: "https://www.avianca.com",
-                urlImage: "https://presidenstory.com/usimag/phot2/washington.jpg",
-                id: 0,
-                idCreateUser: 0,
-                createDate: null
-            },
-            {
-                name: "Juan Espinosa",
-                birthday: "1732-02-22T00:00:00",
-                birthplace: "Westmoreland Co., Va.",
-                deathDay: "1799-12-14T00:00:00",
-                deathPlace: "Mount Vernon, Va.",
-                urlMoreInfo: "https://www.google.com",
-                urlPlaceInfo: "https://www.avianca.com",
-                id: 0,
-                idCreateUser: 0,
-                createDate: null
+
+        this.state = { data: [] }
+
+        let axiosConfig = {
+            headers: {
+                'Content-Type': 'application/json;charset=UTF-8',
+                "Access-Control-Allow-Origin": "*",
             }
-        ];
+        };
+
+        axios.get(`https://picamera162.azurewebsites.net/api/presidents`, axiosConfig)
+        .then(res => {
+            this.setState({
+                data: res.data.data
+            });
+        });
     }
     
     render() {
@@ -54,11 +44,11 @@ export default class PresidentsComponent extends React.Component {
                         <div className="row text-white text-center">
                             <h1 className="col-md-12 pt-0 title">PRESIDENTS LIST</h1>
                         </div>
-                        {this.presidents.map(president => {
+                        {this.state.data.map((president, i) => {
                             return (
-                                <div className="row justify-content-md-center">
-                                    <div className="col-md-10 col-lg-7">
-                                        <PresidentComponent data={president}></PresidentComponent>
+                                <div className="row justify-content-md-center" key={i}>
+                                    <div className="col-md-10 col-lg-7" key={i}>
+                                        <PresidentComponent data={president} key={i}></PresidentComponent>
                                     </div>
                                 </div>
                             );

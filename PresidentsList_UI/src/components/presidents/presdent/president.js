@@ -30,13 +30,14 @@ export default class PresidentComponent extends React.Component {
                                         <div className="row">
                                             <div title="birthday" className="col-sm-4 col-lg-3 col-5 pr-0 pr-sm-auto">
                                                 <FaBirthdayCake className="mr-1"/>
-                                                <span>{this.props.data.birthday.split('T')[0]}</span>
+                                                <span>{this.props.data.birthday != null ? this.props.data.birthday.split('T')[0] : ''}</span>
                                             </div>
                                             <div className="col-sm-8 col-lg-9 col-7 px-0 px-sm-auto">
                                                 <FaMapMarkerAlt className="mr-1 text-danger"/>
                                                 <span>{this.props.data.birthplace}</span>
                                             </div>
                                         </div>
+                                        {this.props.data.deathDay != null ? 
                                         <div className="row">
                                             <div title="death day" className="col-sm-4 col-lg-3 col-5 pr-0 pr-sm-auto">
                                                 <FaCross className="mr-1"/>
@@ -47,6 +48,7 @@ export default class PresidentComponent extends React.Component {
                                                 <span>{this.props.data.deathPlace}</span>
                                             </div>
                                         </div>
+                                        : ''}
                                     </small>
                                 </div>
                             </div>
