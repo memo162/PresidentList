@@ -36,6 +36,15 @@ namespace PresidentsList_API
             services.AddSingleton<IPresidentService, PresidentService>();
             services.AddSingleton<IPresidentResources, PresidentResource>();
             services.AddOptions();
+
+            // Add service and create Policy with options
+            services.AddCors(options => {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,8 +59,18 @@ namespace PresidentsList_API
                 app.UseHsts();
             }
 
+            app.UseCors(builder =>
+                {
+                    builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowCredentials()
+                        .AllowAnyHeader();
+            });
+
+
             app.UseHttpsRedirection();
             app.UseMvc();
+            app.UseCors("CorsPolicy");
         }
     }
 }
