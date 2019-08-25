@@ -1,5 +1,6 @@
 import React from 'react';
 import './presidents.css'
+import PresidentComponent from './presdent/president';
 import whiteHouseLogo from '../../assets/images/white_house_logo.png';
 
 export default class PresidentsComponent extends React.Component {
@@ -20,8 +21,13 @@ export default class PresidentsComponent extends React.Component {
                         </div>
                         <div className="row text-white text-center">
                             <h1 className="col-md-12 pt-3 title">PRESIDENTS LIST</h1>
-                        </div>   
-                    </div>                     
+                        </div>
+                        <div className="row justify-content-md-center">
+                            <div className="col-md-10 col-lg-7">
+                                <PresidentComponent></PresidentComponent>
+                            </div>
+                        </div>
+                    </div>                
                 </div>
             </>
         );

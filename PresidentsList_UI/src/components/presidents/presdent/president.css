@@ -1,0 +1,17 @@
+.president-image {
+    width: 80px !important;
+    height: 80px !important;
+    max-width: none !important;
+}
+
+@media only screen and (max-width: 575px) {
+    .name-small {
+      font-size: larger;
+    }
+
+    .president-image {
+        width: 50px !important;
+        height: 50px !important;
+        max-width: none !important;
+    }
+}
