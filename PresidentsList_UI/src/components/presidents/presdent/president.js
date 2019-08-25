@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaBirthdayCake, FaCross, FaMapMarkerAlt } from 'react-icons/fa';
 import './president.css'
+import userDefaultImage from '../../../assets/images/user_default.png'
 
 export default class PresidentComponent extends React.Component {
     render() {
@@ -14,7 +15,7 @@ export default class PresidentComponent extends React.Component {
                                 className="mx-auto">
                                     <img alt="PRESIDENT NAME" 
                                     className="img-fluid rounded-circle president-image"
-                                    src="https://presidenstory.com/usimag/phot2/washington.jpg"/>
+                                    src={this.props.data.urlImage != null ? this.props.data.urlImage : userDefaultImage}/>
                                 </a>
                             </div>
                             <div className="col-md-9 col-10">

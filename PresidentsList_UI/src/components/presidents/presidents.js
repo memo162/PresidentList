@@ -16,6 +16,7 @@ export default class PresidentsComponent extends React.Component {
                 deathPlace: "Mount Vernon, Va.",
                 urlMoreInfo: "https://www.google.com",
                 urlPlaceInfo: "https://www.avianca.com",
+                urlImage: "https://presidenstory.com/usimag/phot2/washington.jpg",
                 id: 0,
                 idCreateUser: 0,
                 createDate: null
