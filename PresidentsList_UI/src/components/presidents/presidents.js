@@ -17,16 +17,17 @@ export default class PresidentsComponent extends React.Component {
                             />
                         </div>
                         <div className="row">
-                            <hr className="header-line col-md-6"/>
+                            <hr className="header-line col-md-6 col-10 mt-0"/>
                         </div>
                         <div className="row text-white text-center">
-                            <h1 className="col-md-12 pt-3 title">PRESIDENTS LIST</h1>
+                            <h1 className="col-md-12 pt-0 title">PRESIDENTS LIST</h1>
                         </div>
                         <div className="row justify-content-md-center">
                             <div className="col-md-10 col-lg-7">
                                 <PresidentComponent></PresidentComponent>
                             </div>
                         </div>
+                        <br/>
                     </div>                
                 </div>
             </>
