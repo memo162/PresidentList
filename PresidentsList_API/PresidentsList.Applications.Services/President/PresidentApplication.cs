@@ -1,4 +1,5 @@
-﻿using PresidentsList.Application.Interfaces;
+﻿using Newtonsoft.Json;
+using PresidentsList.Application.Interfaces;
 using PresidentsList.Domain.Enumerators;
 using PresidentsList.Domain.Interfaces.PresidentService;
 using PresidentsList.Domain.Models;
@@ -63,6 +64,8 @@ namespace PresidentsList.Applications.Services.PresidentApplication
                         result.Error.Type = ErrorTypes.Info;
                     }
                 }
+
+                var test = JsonConvert.SerializeObject(result.Data);
 
                 return result;
             }
