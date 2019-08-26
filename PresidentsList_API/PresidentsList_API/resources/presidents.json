@@ -3,296 +3,429 @@
     "Name": "George Washington",
     "Birthday": "1732-2-22",
     "Birthplace": "Westmoreland Co., Va.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/washington.html",
     "DeathDay": "1799-12-14",
-    "DeathPlace": "Mount Vernon, Va."
+    "DeathPlace": "Mount Vernon, Va.",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/washingtonbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/washington.jpg"
   },
   {
     "Name": "John Adams",
     "Birthday": "1735-10-30",
     "Birthplace": "Quincy, Mass.",
     "DeathDay": "1826-7-4",
-    "DeathPlace": "Quincy, Mass."
+    "DeathPlace": "Quincy, Mass.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/jadams.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/jadamsbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/adams.jpg"
+
   },
   {
     "Name": "Thomas Jefferson",
     "Birthday": "1743-4-13",
     "Birthplace": "Albemarle Co., Va.",
     "DeathDay": "1826-7-4",
-    "DeathPlace": "Albemarle Co., Va."
+    "DeathPlace": "Albemarle Co., Va.",
+    "UrlMoreInfo":"http://www.presidentsusa.net/jefferson.html",
+    "UrlPlaceInfo":"http://www.presidentsusa.net/jeffersonbirthplace.html",
+    "UrlImage":"https://presidenstory.com/usimag/phot2/jefferson.jpg"
   },
   {
     "Name": "James Madison",
     "Birthday": "1751-3-16",
     "Birthplace": "Port Conway, Va.",
     "DeathDay": "1836-6-28",
-    "DeathPlace": "Orange Co., Va."
+    "DeathPlace": "Orange Co., Va.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/madison.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/madisonbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/madison.jpg"
   },
   {
     "Name": "James Monroe",
     "Birthday": "1758-4-28",
     "Birthplace": "Westmoreland Co., Va.",
     "DeathDay": "1831-7-4",
-    "DeathPlace": "New York, New York"
+    "DeathPlace": "New York, New York",
+    "UrlMoreInfo": "http://www.presidentsusa.net/monroe.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/monroebirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/monroe.jpg"
   },
   {
     "Name": "John Quincy Adams",
     "Birthday": "1767-7-11",
     "Birthplace": "Quincy, Mass.",
     "DeathDay": "1848-2-23",
-    "DeathPlace": "Washington, D.C."
+    "DeathPlace": "Washington, D.C.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/jqadams.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/jqadamsbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/quincyadams.jpg"
   },
   {
     "Name": "Andrew Jackson",
     "Birthday": "1767-3-15",
     "Birthplace": "Waxhaws, No./So. Carolina",
     "DeathDay": "1845-6-8",
-    "DeathPlace": "Nashville, Tennessee"
+    "DeathPlace": "Nashville, Tennessee",
+    "UrlMoreInfo": "http://www.presidentsusa.net/jackson.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/jacksonbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/jackson.jpg"
   },
   {
     "Name": "Martin Van Buren",
     "Birthday": "1782-12-5",
     "Birthplace": "Kinderhook, New York",
     "DeathDay": "1862-7-24",
-    "DeathPlace": "Kinderhook, New York"
+    "DeathPlace": "Kinderhook, New York",
+    "UrlMoreInfo": "http://www.presidentsusa.net/vanburen.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/vanburenbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/vanburen.jpg"
   },
   {
     "Name": "William Henry Harrison",
     "Birthday": "1773-2-9",
     "Birthplace": "Charles City Co., Va.",
     "DeathDay": "1841-4-4",
-    "DeathPlace": "Washington, D.C."
+    "DeathPlace": "Washington, D.C.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/whharrison.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/whharrisonbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/h_harrison.jpg"
   },
   {
     "Name": "John Tyler",
     "Birthday": "1790-3-29",
     "Birthplace": "Charles City Co., Va.",
     "DeathDay": "1862-1-18",
-    "DeathPlace": "Richmond, Va."
+    "DeathPlace": "Richmond, Va.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/tyler.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/tylerbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/tyler.jpg"
   },
   {
     "Name": "James K. Polk",
     "Birthday": "1795-11-2",
     "Birthplace": "Mecklenburg Co., N.C.",
     "DeathDay": "1849-6-15",
-    "DeathPlace": "Nashville, Tennessee"
+    "DeathPlace": "Nashville, Tennessee",
+    "UrlMoreInfo": "http://www.presidentsusa.net/polk.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/polkbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/polk.jpg"
   },
   {
     "Name": "Zachary Taylor",
     "Birthday": "1784-11-24",
     "Birthplace": "Orange County, Va.",
     "DeathDay": "1850-7-9",
-    "DeathPlace": "Washington, D.C"
+    "DeathPlace": "Washington, D.C",
+    "UrlMoreInfo": "http://www.presidentsusa.net/taylor.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/taylorbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/taylor.jpg"
   },
   {
     "Name": "Millard Fillmore",
     "Birthday": "1800-1-7",
     "Birthplace": "Cayuga Co., New York",
     "DeathDay": "1874-3-8",
-    "DeathPlace": "Buffalo, New York"
+    "DeathPlace": "Buffalo, New York",
+    "UrlMoreInfo": "http://www.presidentsusa.net/fillmore.html",
+    "UrlPlaceInfo": null,
+    "UrlImage": "https://presidenstory.com/usimag/phot2/fillmore.jpg"
   },
   {
     "Name": "Franklin Pierce",
     "Birthday": "1804-11-23",
     "Birthplace": "Hillsborough, N.H.",
     "DeathDay": "1869-10-8",
-    "DeathPlace": "Concord, New Hamp."
+    "DeathPlace": "Concord, New Hamp.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/pierce.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/piercebirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/pierce.jpg"
   },
   {
     "Name": "James Buchanan",
     "Birthday": "1791-4-23",
     "Birthplace": "Cove Gap, Pa.",
     "DeathDay": "1868-6-1",
-    "DeathPlace": "Lancaster, Pa."
+    "DeathPlace": "Lancaster, Pa.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/buchanan.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/buchananbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/buchanan.jpg"
   },
   {
     "Name": "Abraham Lincoln",
     "Birthday": "1809-2-12",
     "Birthplace": "LaRue Co., Kentucky",
     "DeathDay": "1865-4-15",
-    "DeathPlace": "Washington, D.C."
+    "DeathPlace": "Washington, D.C.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/lincoln.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/lincolnbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/lincoln.jpg"
   },
   {
     "Name": "Andrew Johnson",
     "Birthday": "1808-12-29",
     "Birthplace": "Raleigh, North Carolina",
     "DeathDay": "1875-7-31",
-    "DeathPlace": "Elizabethton, Tenn."
+    "DeathPlace": "Elizabethton, Tenn.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/ajohnson.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/ajohnsonbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/ajohnson.jpg"
   },
   {
     "Name": "Ulysses S. Grant",
     "Birthday": "1822-4-27",
     "Birthplace": "Point Pleasant, Ohio",
     "DeathDay": "1885-7-23",
-    "DeathPlace": "Wilton, New York"
+    "DeathPlace": "Wilton, New York",
+    "UrlMoreInfo": "http://www.presidentsusa.net/grant.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/grantbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/grant.jpg"
   },
   {
     "Name": "Rutherford B. Hayes",
     "Birthday": "1822-10-4",
     "Birthplace": "Delaware, Ohio",
     "DeathDay": "1893-1-17",
-    "DeathPlace": "Fremont, Ohio"
+    "DeathPlace": "Fremont, Ohio",
+    "UrlMoreInfo": "http://www.presidentsusa.net/hayes.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/hayesbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/hayes.jpg"
   },
   {
     "Name": "James A. Garfield",
     "Birthday": "1831-11-19",
     "Birthplace": "Cuyahoga Co., Ohio",
     "DeathDay": "1881-9-19",
-    "DeathPlace": "Elberon, New Jersey"
+    "DeathPlace": "Elberon, New Jersey",
+    "UrlMoreInfo": "http://www.presidentsusa.net/garfield.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/garfieldbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/garfield.jpg"
   },
   {
     "Name": "Chester Arthur",
     "Birthday": "1829-10-5",
     "Birthplace": "Fairfield, Vermont",
     "DeathDay": "1886-11-18",
-    "DeathPlace": "New York, New York"
+    "DeathPlace": "New York, New York",
+    "UrlMoreInfo": "http://www.presidentsusa.net/arthur.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/arthurbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/arthur.jpg"
   },
   {
     "Name": "Grover Cleveland",
     "Birthday": "1837-3-18",
     "Birthplace": "Caldwell, New Jersey",
     "DeathDay": "1908-6-24",
-    "DeathPlace": "Princeton, New Jersey"
+    "DeathPlace": "Princeton, New Jersey",
+    "UrlMoreInfo": "http://www.presidentsusa.net/cleveland.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/clevelandbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/cleveland.jpg"
   },
   {
     "Name": "Benjamin Harrison",
     "Birthday": "1833-8-20",
     "Birthplace": "North Bend, Ohio",
     "DeathDay": "1901-3-13",
-    "DeathPlace": "Indianapolis, Indiana"
+    "DeathPlace": "Indianapolis, Indiana",
+    "UrlMoreInfo": "http://www.presidentsusa.net/bharrison.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/bharrisonbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/harrison.jpg"
   },
   {
     "Name": "William McKinley",
     "Birthday": "1843-1-29",
     "Birthplace": "Niles, Ohio",
     "DeathDay": "1901-9-14",
-    "DeathPlace": "Buffalo, New York"
+    "DeathPlace": "Buffalo, New York",
+    "UrlMoreInfo": "http://www.presidentsusa.net/mckinley.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/mckinleybirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/mckinley.jpg"
   },
   {
     "Name": "Theodore Roosevelt",
     "Birthday": "1858-10-27",
     "Birthplace": "New York, New York",
     "DeathDay": "1919-1-6",
-    "DeathPlace": "Oyster Bay, New York"
+    "DeathPlace": "Oyster Bay, New York",
+    "UrlMoreInfo": "http://www.presidentsusa.net/troosevelt.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/trooseveltbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/roosevelt.jpg"
   },
   {
     "Name": "William Howard Taft",
     "Birthday": "1857-9-15",
     "Birthplace": "Cincinnati, Ohio",
     "DeathDay": "1930-3-8",
-    "DeathPlace": "Washington, D.C."
+    "DeathPlace": "Washington, D.C.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/taft.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/taftbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/taft.jpg"
   },
   {
     "Name": "Woodrow Wilson",
     "Birthday": "1856-12-28",
     "Birthplace": "Staunton, Virginia",
     "DeathDay": "1924-2-3",
-    "DeathPlace": "Washington, D.C."
+    "DeathPlace": "Washington, D.C.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/wilson.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/wilsonbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/wilson.jpg"
   },
   {
     "Name": "Warren G. Harding",
     "Birthday": "1865-11-2",
     "Birthplace": "Morrow County, Ohio",
     "DeathDay": "1923-8-2",
-    "DeathPlace": "San Francisco, Cal."
+    "DeathPlace": "San Francisco, Cal.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/harding.html",
+    "UrlPlaceInfo": null,
+    "UrlImage": "https://presidenstory.com/usimag/phot2/harding.jpg"
   },
   {
     "Name": "Calvin Coolidge",
     "Birthday": "1872-7-4",
     "Birthplace": "Plymouth, Vermont",
     "DeathDay": "1933-1-5",
-    "DeathPlace": "Northampton, Mass."
+    "DeathPlace": "Northampton, Mass.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/coolidge.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/coolidgebirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/coolidge.jpg"
   },
   {
     "Name": "Herbert Hoover",
     "Birthday": "1874-8-10",
     "Birthplace": "West Branch, Iowa",
     "DeathDay": "1964-10-20",
-    "DeathPlace": "New York, New York"
+    "DeathPlace": "New York, New York",
+    "UrlMoreInfo": "http://www.presidentsusa.net/hoover.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/hooverbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/hoover.jpg"
   },
   {
     "Name": "Franklin Roosevelt",
     "Birthday": "1882-1-30",
     "Birthplace": "Hyde Park, New York",
     "DeathDay": "1945-4-12",
-    "DeathPlace": "Warm Springs, Georgia"
+    "DeathPlace": "Warm Springs, Georgia",
+    "UrlMoreInfo": "http://www.presidentsusa.net/fdroosevelt.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/fdrbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/fdr.jpg"
   },
   {
     "Name": "Harry S. Truman",
     "Birthday": "1884-5-8",
     "Birthplace": "Lamar, Missouri",
     "DeathDay": "1972-12-26",
-    "DeathPlace": "Kansas City, Missouri"
+    "DeathPlace": "Kansas City, Missouri",
+    "UrlMoreInfo": "http://www.presidentsusa.net/truman.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/trumanbirthsite.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/truman.jpg"
   },
   {
     "Name": "Dwight Eisenhower",
     "Birthday": "1890-10-14",
     "Birthplace": "Denison, Texas",
     "DeathDay": "1969-3-28",
-    "DeathPlace": "Washington, D.C."
+    "DeathPlace": "Washington, D.C.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/eisenhower.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/eisenhowerbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/ike.jpg"
   },
   {
     "Name": "John F. Kennedy",
     "Birthday": "1917-5-29",
     "Birthplace": "Brookline, Mass.",
     "DeathDay": "1963-11-22",
-    "DeathPlace": "Dallas, Texas"
+    "DeathPlace": "Dallas, Texas",
+    "UrlMoreInfo": "http://www.presidentsusa.net/kennedy.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/jfkbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/jfk.jpg"
   },
   {
     "Name": "Lyndon B. Johnson",
     "Birthday": "1908-8-27",
     "Birthplace": "Gillespie Co., Texas",
     "DeathDay": "1973-1-22",
-    "DeathPlace": "Gillespie Co., Texas"
+    "DeathPlace": "Gillespie Co., Texas",
+    "UrlMoreInfo": "http://www.presidentsusa.net/ljohnson.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/ljohnsonbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/johnson.jpg"
   },
   {
     "Name": "Richard Nixon",
     "Birthday": "1913-1-9",
     "Birthplace": "Yorba Linda, Cal.",
     "DeathDay": "1994-4-22",
-    "DeathPlace": "New York, New York"
+    "DeathPlace": "New York, New York",
+    "UrlMoreInfo": "http://www.presidentsusa.net/nixon.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/nixonbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/nixon.jpg"
   },
   {
     "Name": "Gerald Ford",
     "Birthday": "1913-7-14",
     "Birthplace": "Omaha, Nebraska",
     "DeathDay": "2006-12-26",
-    "DeathPlace": "Rancho Mirage, Cal."
+    "DeathPlace": "Rancho Mirage, Cal.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/ford.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/fordbirthsite.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/ford.jpg"
   },
   {
     "Name": "Jimmy Carter",
     "Birthday": "1924-10-1",
-    "Birthplace": "Plains, Georgia"
+    "Birthplace": "Plains, Georgia",
+    "UrlMoreInfo": "http://www.presidentsusa.net/carter.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/carterbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/carter.jpg"
   },
   {
     "Name": "Ronald Reagan",
     "Birthday": "1911-2-6",
     "Birthplace": "Tampico, Illinois",
     "DeathDay": "2004-6-5",
-    "DeathPlace": "Los Angeles, Cal."
+    "DeathPlace": "Los Angeles, Cal.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/reagan.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/reaganbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/reagan.jpg"
   },
   {
     "Name": "George Bush",
     "Birthday": "1924-6-12",
-    "Birthplace": "Milton, Mass."
+    "Birthplace": "Milton, Mass.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/ghwbush.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/ghwbushbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/bush.jpg"
   },
   {
     "Name": "Bill Clinton",
     "Birthday": "1946-8-19",
-    "Birthplace": "Hope, Arkansas"
+    "Birthplace": "Hope, Arkansas",
+    "UrlMoreInfo": "http://www.presidentsusa.net/clinton.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/clintonbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/clinton.jpg"
   },
   {
     "Name": "George W. Bush",
     "Birthday": "1646-7-6",
-    "Birthplace": "New Haven, Conn."
+    "Birthplace": "New Haven, Conn.",
+    "UrlMoreInfo": "http://www.presidentsusa.net/gwbush.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/gwbushbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/wbush.jpg"
   },
   {
     "Name": "Barack Obama",
     "Birthday": "1961-8-4",
-    "Birthplace": "Honolulu, Hawaii"
+    "Birthplace": "Honolulu, Hawaii",
+    "UrlMoreInfo": "http://www.presidentsusa.net/obama.html",
+    "UrlPlaceInfo": null,
+    "UrlImage": "https://presidenstory.com/usimag/phot2/obama.jpg"
   },
   {
     "Name": "Donald Trump",
     "Birthday": "1946-6-14",
-    "Birthplace": "New York, New York"
+    "Birthplace": "New York, New York",
+    "UrlMoreInfo": "http://www.presidentsusa.net/trump.html",
+    "UrlPlaceInfo": "http://www.presidentsusa.net/trumpbirthplace.html",
+    "UrlImage": "https://presidenstory.com/usimag/phot2/donald-trump.jpg"
   }
 ]

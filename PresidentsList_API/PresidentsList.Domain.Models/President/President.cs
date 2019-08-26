@@ -14,5 +14,6 @@ namespace PresidentsList.Domain.Models
         public string DeathPlace { get; set; }
         public string UrlMoreInfo { get; set; }
         public string UrlPlaceInfo { get; set; }
+        public string UrlImage { get; set; }
     }
 }
